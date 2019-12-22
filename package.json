@@ -1,0 +1,20 @@
+{
+  "name": "test_automation",
+  "version": "1.0.0",
+  "description": "protractor test sample",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor conf.js"
+  },
+  "author": "licity",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^12.12.21",
+    "protractor": "^5.4.2",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "typescript": "^3.7.4"
+  }
+}
